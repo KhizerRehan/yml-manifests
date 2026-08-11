@@ -1,0 +1,8 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.best-practices
+    image: my-api:1.0
+    ports:
+      - "8080:8080"
